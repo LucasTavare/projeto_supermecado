@@ -33,8 +33,11 @@ $sql = "INSERT INTO
 
         echo "Cadastro realizado com sucesso!";
 
-    }catch(PDOException $e){
+        $con = null;
 
+    }catch(PDOException $e){
+        echo $erro->getMessage();
+        die();
     }
 
 
