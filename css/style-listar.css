@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -29,4 +28,27 @@ figure{
 
 img{
     width: 100%;
+}
+
+#tabela{
+    display: grid;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#tabela tr td, #tabela tr th{
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.tabela-viagens, th, td{
+    border: 1px solid black !important;
+    text-align: left;
+}
+
+tr:hover{
+    background-color: aliceblue;
 }
