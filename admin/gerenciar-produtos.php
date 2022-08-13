@@ -56,7 +56,9 @@ try {
                     <td><?php echo $p['valor'];?></td>
                     <td><?php echo $p['tipo'];?></td>
                     <td><?php echo $p['marca'];?></td>
-                    <td>Alterar</td>
+                    <td><a href="../admin/alterar.php?id=<?php echo $p['id'];?>">
+                            alterar
+                        </a></td>
                     <td>
                         <a href="../backend/deletar_produto.php?id=<?php echo $p['id'];?>">
                             Deletar
