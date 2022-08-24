@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: grid;
+    margin: 0 auto;
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+.input-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    height: 400px;
+    align-items: center;
+    box-shadow: 0px 3px 1px 0px rgb(61, 61, 61);
+}
+
+form div{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    width: 30%;
+}
+
+.input{
+    width: 300px;  
+}
+
+input{
+    border: 0.3px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    
+}
+
+.div-btn{
+    display: grid;
+    margin: 0 auto;
+}
+
+.button{
+    color: aliceblue;
+    background-color: steelblue;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 2px 1px #Ccc;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+    
